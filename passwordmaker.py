@@ -1,3 +1,5 @@
+import random
+import array
 print ("Hello,Welcome to password genarator!")
 MAX_LEN = 12
 DIGITS = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']  
@@ -25,4 +27,5 @@ for x in range(MAX_LEN - 4):
 password = ""
 for x in temp_pass_list:
         password = password + x
+print("Your Password is:")
 print(password)
